@@ -1,0 +1,30 @@
+html,
+body {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  color: #fff;
+  font-size: 36px;
+  line-height: 1.2;
+  @include Lato-600;
+  height: 100%;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1820px;
+  margin: 0 auto;
+  padding: 0 50px;
+  position: relative;
+}
+
+.container-big {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
