@@ -1,4 +1,10 @@
 @import '~normalize.css';
 @import 'style/fonts';
+@import 'style/reset';
 @import 'style/var';
-@import 'style/style';
+@import 'style/global';
+@import 'style/sections/header';
+@import 'style/sections/footer';
+@import 'style/sections/section-1';
+@import 'style/sections/section-2';
+@import 'style/sections/section-3';

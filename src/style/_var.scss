@@ -1,5 +1,39 @@
-$back: rgb(41, 41, 9);
-$text: rgb(212, 166, 166);
 
 
+@mixin Lato-400 {
+  font-family: 'Lato',
+    sans-serif;
+  font-weight: 400;
+}
+@mixin Lato-500 {
+  font-family: 'Lato',
+    sans-serif;
+  font-weight: 500;
+}
+@mixin Lato-600 {
+  font-family: 'Lato',
+    sans-serif;
+  font-weight: 600;
+}
+@mixin Lato-700 {
+  font-family: 'Lato',
+    sans-serif;
+  font-weight: 700;
+}
+@mixin Lato-800 {
+  font-family: 'Lato',
+    sans-serif;
+  font-weight: 800;
+}
+@mixin Lato-900 {
+  font-family: 'Lato',
+    sans-serif;
+  font-weight: 900;
+}
 
+
+@mixin _1660 {
+  @media (max-width: 1660px) {
+    @content;
+  }
+}
