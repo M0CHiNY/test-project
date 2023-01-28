@@ -41,7 +41,8 @@
   },
   "dependencies": {
     "node": "^18.13.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "swiper": "^8.4.6"
   },
   "repository": {
     "type": "git",
