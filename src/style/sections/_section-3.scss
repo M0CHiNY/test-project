@@ -1,1 +1,169 @@
+.live {
+  padding-bottom: 100px;
+
+  .live__title {
+    font-size: 48px;
+    @include Lato-800;
+    padding-bottom: 40px;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+
+
+    .swiper-items {
+      display: flex;
+      gap: 45px;
+    }
+
+    .swiper-item.swiper-item--mod {
+      max-width: 587px;
+      width: 100%;
+      background: linear-gradient(180deg, #928FDB 0%, #ECD6ED 100%);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
+      padding: 20px;
+
+      .swiper-item-box {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+
+        .swiper-item-box__inner {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+          }
+
+          span {
+            font-size: 24px;
+            @include Lato-400;
+          }
+        }
+
+        p {
+          @include Lato-400;
+          font-size: 24px;
+          color: rgba(255, 255, 255, 0.5);
+        }
+      }
+
+      .swiper-item__img {
+        width: 100%;
+        background-size: cover;
+        margin-bottom: 33px;
+
+      }
+
+      .swiper-item_box2 {
+        display: flex;
+        justify-content: space-between;
+        @include Lato-600;
+        align-items: center;
+
+        .bid {
+          font-weight: 600;
+          font-size: 24px;
+        }
+
+        .price {
+          font-size: 32px;
+          @include Lato-700;
+          color: #CC6496;
+
+        }
+      }
+    }
+  }
+
+  .swiper-item {
+    .swiper-item__title {
+      font-size: 48px;
+      @include Lato-800;
+      padding-bottom: 20px;
+    }
+  }
+
+  .swiper-item__text {
+    font-size: 36px;
+    @include Lato-600;
+    max-width: 878px;
+    width: 100%;
+
+  }
+
+  .wiper-item__box {
+    margin-top: 100px;
+    width: 100%;
+
+    .time_ago {
+      text-align: right;
+      width: 100%;
+      display: block;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 24px;
+      @include Lato-400;
+
+    }
+
+    .inform {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      border: 2px solid black;
+
+      img {
+        width: 38px;
+        height: 38px;
+        margin-right: 10px;
+      }
+
+      span {
+        font-size: 24px;
+        color: #171717;
+        @include Lato-700;
+      }
+
+    }
+
+  }
+
+  .swiper-box{
+    margin-top: 40px;
+    gap: 20px;
+    cursor: pointer;
+    position: relative;
+    width: 150px;
+    height: 90px;
+    margin: 0 auto;
+
+
+
+  }
+  .swiper-button-prev,
+  .swiper-button-next
+  {
+    padding: 15px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color:rgba(255, 255, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::after{
+      content: '';
+    }
+
+
+  }
+  .swiper-button-next {
+    transform: rotate(180deg);
+  }
+}
 
