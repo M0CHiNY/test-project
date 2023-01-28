@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,14 +10,90 @@
 
   <title>Webpack</title>
 </head>
-
 <body>
-  <header>
-
+  <header class="header">
+    <div class="container">
+      <div class="header__wrap">
+        <a href="" class="logo">Crypto Kingdom</a>
+        <label class="header__label">
+          <svg class="header__glass" width="30" height="30" viewBox="0 0 30 30" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M26.5 28.8333L17.1667 19.5C16.3333 20.1667 15.375 20.6944 14.2917 21.0833C13.2083 21.4722 12.0556 21.6667 10.8333 21.6667C7.80556 21.6667 5.24333 20.6183 3.14667 18.5217C1.04889 16.4239 0 13.8611 0 10.8333C0 7.80556 1.04889 5.24278 3.14667 3.145C5.24333 1.04833 7.80556 0 10.8333 0C13.8611 0 16.4239 1.04833 18.5217 3.145C20.6183 5.24278 21.6667 7.80556 21.6667 10.8333C21.6667 12.0556 21.4722 13.2083 21.0833 14.2917C20.6944 15.375 20.1667 16.3333 19.5 17.1667L28.875 26.5417C29.1806 26.8472 29.3333 27.2222 29.3333 27.6667C29.3333 28.1111 29.1667 28.5 28.8333 28.8333C28.5278 29.1389 28.1389 29.2917 27.6667 29.2917C27.1944 29.2917 26.8056 29.1389 26.5 28.8333ZM10.8333 18.3333C12.9167 18.3333 14.6878 17.6044 16.1467 16.1467C17.6044 14.6878 18.3333 12.9167 18.3333 10.8333C18.3333 8.75 17.6044 6.97889 16.1467 5.52C14.6878 4.06222 12.9167 3.33333 10.8333 3.33333C8.75 3.33333 6.97889 4.06222 5.52 5.52C4.06222 6.97889 3.33333 8.75 3.33333 10.8333C3.33333 12.9167 4.06222 14.6878 5.52 16.1467C6.97889 17.6044 8.75 18.3333 10.8333 18.3333Z"
+              fill="#DADADA" />
+          </svg>
+          <input class="header__search" type="text" placeholder="Search" />
+        </label>
+        <ul class="header__menu">
+          <li class="header__menu-items">
+            <a class="header__menu-link" href="#">Explore</a>
+          </li>
+          <li class="header__menu-items">
+            <a class="header__menu-link" href="#">Create</a>
+          </li>
+          <li class="header__menu-items">
+            <a class="header__menu-link" href="#">Ranking</a>
+          </li>
+        </ul>
+        <button class="header__btn button">Connect Wallet</button>
+      </div>
+    </div>
   </header>
 
   <main>
-
+    <section class="section-1">
+      <div class="container">
+        <div class="section-1__wrap">
+          <div class="section-1__tex-box">
+            <h1 class="section-1__title">explore the realm of unique and rare nfts</h1>
+            <p class="section-1__descr">
+              Explore, collect, and market the newest and most popular NFTs from creators
+              globally
+            </p>
+            <div class="section-1__btn-box">
+              <button class="section-1__btn button">Explore</button>
+              <button class="section-1__btn button button__active">Collect</button>
+            </div>
+          </div>
+          <div class="section-1__box-img">
+            <img src="../img/cube.png" alt="cube bg" class="section-1__img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="effect">
+      <div class="container">
+        <div class="effect__wrap">
+          <span class="effect__info">125K+ NFTs</span>
+          <span class="effect__star">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="50" height="50" fill="url(#paint0_diamond_7_51)" />
+              <defs>
+                <radialGradient id="paint0_diamond_7_51" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(25 25) rotate(90) scale(25)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="effect__info">40K+ Artist</span>
+          <span class="effect__star">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="50" height="50" fill="url(#paint0_diamond_7_51)" />
+              <defs>
+                <radialGradient id="paint0_diamond_7_51" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(25 25) rotate(90) scale(25)">
+                  <stop stop-color="white" />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="effect__info">60K+ Auctions</span>
+        </div>
+      </div>
+    </div>
     <div class="container-big">
       <div class="inner">
         <div class="container">
@@ -73,8 +148,7 @@
   </main>
 
   <footer>
-
+  
   </footer>
 </body>
-
 </html>

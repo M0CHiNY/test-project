@@ -1,0 +1,54 @@
+.header {
+  background-color: #171717;
+  height: 100px;
+
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+
+  &__label {
+    position: relative;
+  }
+
+  &__glass {
+    position: absolute;
+    left: 190px;
+    top: 30%;
+  }
+
+  &__search {
+    position: relative;
+    max-width: 440px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    padding: 16px 15px 16px 70px;
+    font-size: 32px;
+    color: #DADADA;
+    border: none;
+    margin-left: 173px;
+  }
+
+  &__menu {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 32px;
+    @include Lato-500;
+  }
+
+  &__menu-items {
+    max-width: 134px;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  &__btn {
+    max-width: 283px;
+    padding: 15px 32px;
+  }
+}
