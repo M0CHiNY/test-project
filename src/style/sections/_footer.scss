@@ -1,0 +1,61 @@
+.footer {
+  padding: 20px 0;
+  background-color: #171717;
+
+  &__wrap {
+    display: flex;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 447px;
+    height: 191px;
+    margin-bottom: 20px;
+  }
+
+  &__inner {
+    max-width: 447px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__email {
+    border: none;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    font-size: 32px;
+    padding: 15px;
+    @include Lato-500;
+  }
+
+  &__btn {
+    align-self: flex-end;
+    display: inline;
+    width: 57px;
+    height: 47px;
+    cursor: pointer;
+    border: none;
+    background-color: #171717;
+    position: relative;
+    left: -10px;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  &__link {
+    transition: color 0.5s;
+
+    &:hover {
+      color: #CC6496;
+    }
+  }
+}
